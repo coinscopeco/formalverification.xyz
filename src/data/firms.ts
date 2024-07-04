@@ -95,17 +95,6 @@ export const firms: Firm[] = [
     },
     {
       "id": 5,
-      "name": "Cyberscope",
-      "specialties": [Specialty.SmartContractVerification, Specialty.DeFiProtocolVerification],
-      "description": "Cyberscope specializes in formal verification, offering tailored solutions for smart contract projects, ensuring rigorous mathematical proof of correctness and security.",
-      "languages": [Language.Solidity, Language.Vyper],
-      "stacks": [Stack.Ethereum, Stack.BinanceSmartChain],
-      "fv_language": [FVTools.Coq, FVTools.TLAPlus],
-      "svg": "cyberscope.svg",
-      "link": "https://www.cyberscope.io/"
-    },
-    {
-      "id": 6,
       "name": "ShellBoxes",
       "specialties": [Specialty.SmartContractVerification, Specialty.CryptographicPrimitiveVerification],
       "description": "ShellBoxes offers comprehensive formal verification and security audits for various blockchain ecosystems, providing detailed reports and mitigation strategies.",
@@ -116,7 +105,7 @@ export const firms: Firm[] = [
       "link": "https://www.shellboxes.com/"
     },
     {
-      "id": 7,
+      "id": 6,
       "name": "Nethermind",
       "specialties": [Specialty.SmartContractVerification, Specialty.ZKCircuitVerification],
       "description": "Nethermind offers formal verification services for EVM and StarkNet smart contracts, utilizing tools like Horus to ensure the correctness and security of blockchain applications.",
@@ -127,7 +116,7 @@ export const firms: Firm[] = [
       "link": "https://www.nethermind.io/formal-verification"
     },
     {
-      "id": 8,
+      "id": 7,
       "name": "Formal Land",
       "specialties": [Specialty.SmartContractVerification, Specialty.CryptographicPrimitiveVerification],
       "description": "Formal Land offers advanced formal verification services, specializing in translating code from languages like Rust, OCaml, Solidity, and TypeScript to the Coq proof system. They are known for their rigorous methods and innovative tools, ensuring the highest level of software security.",
@@ -136,5 +125,16 @@ export const firms: Firm[] = [
       "fv_language": [FVTools.Coq, FVTools.Z3],
       "svg": "formalland.svg",
       "link": "https://formal.land/"
+    },
+    {
+      "id": 8,
+      "name": "Cyberscope",
+      "specialties": [Specialty.SmartContractVerification, Specialty.PenetrationTesting, Specialty.KYCVerification],
+      "description": "We've performed more than 2200 smart contract audits across all different networks like BSC, Ethereum, Solana, Polygon, AVAX, etc. We've KYC’d more than 800 teams and we haven’t received any reports from investors so far! We help organisations identify the weaknesses an attacker could exploit.",
+      "languages": [Language.Solidity, Language.Rust],
+      "stacks": [Stack.Ethereum, Stack.BinanceSmartChain, Stack.Polygon, Stack.Solana],
+      "fv_language": [FVTools.Coq, FVTools.Z3],
+      "svg": "cyberscope.svg",
+      "link": "cyberscope.io"
     }
   ];
